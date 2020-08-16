@@ -40,20 +40,26 @@
           background-color: #648cfe ;
           text-align: center;
           border: thin;
-          margin: 0px 100px 0px 100px;
+          margin: 0px 100px 0px 100px;  
+          transition: transform 0.4s;
       }
 
      .rk{
-        font-size: 60px !important;  
-        margin-top: 13px !important;
-        text-shadow: -1px 1px 0 #41ba45,
-        1px 1px 0 #c63d2b,
-       1px -1px 0 #42afac,
-      -1px -1px 0 #57e763;
+        font-size: 40px !important;  
+        margin-top: 25px !important;
+        margin-left: 60px !important;
+        transition: transform 0.4s;
+        text-shadow: #3a3939;
+      }
+
+      .rk:hover{
+        transition: all .2s ease;
+        transform: scale(1.1);
+        
       }
 
 
-    .topnav a {
+      .topnav a {
             float: left;
             color: #ffffff;
             text-align: center;
@@ -62,6 +68,8 @@
             text-decoration: none;
             font-size: 17px;
             font-weight: 500;
+            transition: transform 0.4s;
+            
           }
  
 
@@ -111,22 +119,27 @@
       width: 558px !important ;
       right: 200px !important ;
       box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-
+      transition: transform 0.4s;
     } 
 
+    .display_picture:hover{
+      transition: all .2s ease;
+      transform: scale(1.1);
+    }
     
     #Section1{
       
-     position: absolute; 
-     top: 900px ;
-     height: 500px;
-     width: 100%;
-     padding-top: 100px;
-     padding-bottom: 100px;
-     margin-top: 100px;
-     margin-right: 0px;
-     margin-bottom: 100px;
-     margin-left: 0px;
+      position: absolute;
+    top: 950px;
+    /* bottom: 22200px; */
+    height: 500px;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin-top: -90px;
+    margin-right: 0px;
+    /* margin-bottom: 100px; */
+    margin-left: 0px;
 
    }
 
@@ -169,18 +182,30 @@ table {
 
 #Section2{
       
-  position: absolute; 
-  top: 1500px;
+  position: absolute;
+  top: 1680px;
+  /* bottom: 501px; */
+  height: 500px;
+  width: 100%;
+  padding-top: 200px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+
+#Section3{
+      
+  position: absolute;
+  top: 2650px;
   height: 700px;
   width: 100%;
-  margin-top: 300px;
+  margin-top: 100px;
   margin-right: 0px;
   margin-bottom: 100px;
   margin-left: 0px;
 
-}
-
-    
+} 
 
  /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
 
@@ -224,7 +249,7 @@ table {
 }   
 
 .main .row th:hover {
-  background-color: rgba(12, 134, 248, 0.616);
+  background-color: rgba(89, 167, 243);
 }   
 
 
