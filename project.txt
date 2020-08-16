@@ -1,0 +1,11 @@
+this file was created to be used in the project
+
+this file contains some tasks to be finished for the html module
+
+1.	Learn the basic structure of a html page. 
+2.	Html, Head, Navigation, Body and Footer Tags
+3.	Learn Headings H1..H6
+4.	Learn Paragraph, and div
+5.	Learn Styling
+a.	Select via tag, id or class
+b.	Set styles for background, font, border, padding and margin
