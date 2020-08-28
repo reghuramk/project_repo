@@ -37,13 +37,19 @@
       }
 
       .topnav{
-          overflow: hidden;
-          background-color: #648cfe ;
-          text-align: center;
-          border: thin;
-          margin: 0px 100px 0px 100px;  
-          transition: transform 0.4s;
-      }
+        overflow: hidden;
+        background-color: #648cfe;
+        text-align: center;
+        border: thin;
+        margin: 0px 2px 0px 0px;
+        transition: transform 0.4s;
+        width: 1903px;
+        /* -webkit-box-shadow: 0 10px 6px -6px #777; */
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0px 8px 14px -7px #475e9e;
+        }
+        
+      
 
      .rk{
         font-size: 40px !important;  
@@ -61,15 +67,16 @@
 
 
       .topnav a {
-            float: left;
-            color: #ffffff;
-            text-align: center;
-            padding: 10px;
-            margin: 40px 50px 30px 150px;
-            text-decoration: none;
-            font-size: 17px;
-            font-weight: 500;
-            transition: transform 0.4s;
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        /* padding: 10px; */
+        padding-left: 70px;
+        margin: 41px 50px 30px 150px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 500;
+        transition: transform 0.4s;
             
           }
  
